@@ -1,6 +1,8 @@
 #### IDH1 Mutation and 1p19q co-deletion prediction from MRI for brain cancer.
-by Sourav Singh, Rasika Mahadeshwar, Manali Bhavsar and Sumeet Rathod 
+### by Sourav Singh, Rasika Mahadeshwar, Manali Bhavsar and Sumeet Rathod 
+@snap[midpoint]
 under guidance from Prof. (Ms.) Disha S. Wankhede
+@snap[midpoint]
 in collaboration with Tata Memorial Centre, Mumbai
 
 ---
