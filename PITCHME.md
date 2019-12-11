@@ -9,21 +9,6 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Table of Contents
-
-- Introduction
-- Problem Statement
-- Project Genesis
-- Literature Survey
-- Project objectives
-- Methodology
-- Conclusion
-- Future Scope
-- References
-- Question round
-
----
-
 #### Introduction
 
 +++
@@ -39,35 +24,45 @@ in collaboration with Tata Memorial Centre, Mumbai
 ![IMAGE](https://raw.githubusercontent.com/fperez/blog/master/fig/johnhunter-head.jpg)
 
 ---
+# Motivation
 
-#### Let's Play!!
-
-Let's play a small game to understand a bit on Game Theory- Guess 2/3rd of average.
-
-The aim of the game is to guess the 2/3rd of the average of your guesses.
-
-Numbers are restricted between 0 to 100, both inclusive.
-
----
-
-#### Prisoner's Dilemma
-
-- Started out as an idea at RAND Corporation.
-- Formalized later by  Albert W. Tucker as a game with prison sentence rewards.
+- Patients with brain cancer aren't so lucky.
+- Mean and median survival for a patient with brain cancer is 15 and 16 months upon getting treatment.
+- India is third largest in number of incident cases of brain cancer. [Reference](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30468-X/fulltext?rss=yes)
+- Timely diagnosis and treatment is important to combat brain cancer.
+- Machine learning can help in quick diagnosis of brain cancer and has been used before.
 
 ---
 
-#### Scenario
-
-- Two members of a criminal organization A and B are captured and put in incarceration. Both the members are isolated and  cannot communicate with each other.
-- The Prosecutor doesn't have enough evidence for prosecution and decides to give each person a bargain- betray your friend or cooperate with your friend by going silent.
+- Knowing genetic mutations and co-deletions of chromosomes can help guide the treatment.
+- Checking genetic mutations and co-deletions require complicated tests(immunoassays, sequencing, FISH).
+- Cost money and time.
 
 ---
 
-The offer is:
-- If A and B betray each other, both get imprisonment for three years.
-- If A betrays and B is silent(or vice versa),  A is free and B will serve 5 years in prison.
-- If both remain silent, Both serve one year in prison.
+#### Existing Systems and their limitations
+
+- Current systems use 2D CNNs or ML methods to classify genetic mutation type for IDH1- wildtype vs mutant.
+- 1p19q co-deletions- Normal or deleted.
+- Current systems do not take into account the volumetric space of brain tumor.
+- ML methods are limited by the features obtained from MRI.
+- Current systems have only been trained on brain images which are taken from patient trials at America/Europe.
+
+--- 
+
+#### Proposed system
+
+- System will make use of brain MRI scans of various modalities as input.
+- The input will be checked for file format type, parity and stuff.
+- 3D ConvNet will obtain volumetric features and use it to classify tumor type and co-deletion status.
+
+---
+
+#### Purpose
+
+- Help diagnosticians in knowing mutation and co-deletion status.
+- Drive treatment protocol in a useful manner.
+- Alleviates need for complicated lab tests.
 
 ---
 ### Payoff Matrix(Outcome of game playing between two players A and B)
