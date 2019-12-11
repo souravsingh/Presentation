@@ -52,6 +52,7 @@ The presentation talks about brain cancer and how deep learning can help in the 
 - Help diagnosticians in knowing mutation and co-deletion status.
 - Drive treatment protocol in a useful manner.
 - Alleviates need for complicated lab tests.
+- Drive research into novel treatment protocols like NK-cell therapy, CRISPR.
 
 ---
 
@@ -190,6 +191,16 @@ the BRATS 2017 Challenge.
 
 ### Glossary of terms
 
++++
+
+Glioma: A type of tumor that starts in the glial cells(cells which support neuron and provide nutrition) of the brain or the spine. Type of brain cancer.
+
+NK-cell: Natural Killer Cell. Type of white blood cell which stop viruses from proliferating and can kill tumors, making them useful for cancer treatment. Think of them as Delta Force of our body's immune system.
+
+CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats. Uses certain types of bacteria to target and bind to a specific target genome.
+
++++
+
 IDH1- A gene which controls info for creating isocitrate dehydrogenase enzyme, which helps produce
 NADPH(Nicotinamide adenine dinucleotide phosphate) for breakdown of fat and protect body from free radicals in an indirect manner.
 Mutation of this gene can be a cause increase in methylation process in brain tumor cells.
@@ -202,8 +213,11 @@ This is a signature of specialized brain tumor type called oligodendroglioma. Ar
 +++
 
 Modalities- MRI modalities uses various modes for diagnosing the disease
+- T1-weighted: MRI which highlights fat tissue. CSF and fluid appear dark
+- T2-weighted: MRI which highlights fat tissue and water tissue as well. CSF and fluid appear brighter here.
 - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
 - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
+- DWI: Diffusion Weighted Imaging, uses the diffusion of water molecules to generate contrast in MR image.
 
 ---
 
