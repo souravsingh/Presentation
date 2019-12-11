@@ -11,18 +11,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ### Introduction
 
-+++
-
-![IMAGE](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhB0p2sa8bGLZBCaYKEIOOSYCT17lAXvEbPDSwdlcl66ecd4VQ)
-
-+++
-
-![IMAGE](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeDsR3qNq1hZGmdYEfIeHA58IYlppQwaaJg2bT1ErGCUIofYVY)
-
-+++
-
-![IMAGE](https://raw.githubusercontent.com/fperez/blog/master/fig/johnhunter-head.jpg)
-
+The presentation talks about brain cancer and how deep learning can help in the diagnosis of brain cancer. There are terms which may/may not be understood, so they are included at the end as a Glossary.  
 ---
 ### Motivation
 
@@ -85,7 +74,49 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ### Literature Survey
 
-- Add image here
+## Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques
+
+Summary- Uses SVM classifier with T1, T1-Gd, T2, T2-FLAIR and DTI MRI images on 120 features
+consisting of location of tumor, intensities of tumor in each -of the imaging scans
+which gave Accuracy for retrospective study= 77.14 % SVM Accuracy for
+prospective study=79.17%
+
+Advantages:
+- Is easy to implement
+- Uses features which can be easily extracted
+
+Disadvantages:
+- Can be prone to outliers
+- Gives less accuracy compared to other methods.
+
++++
+
+## Deep Learning based Radiomics (DLR) and its usage in noninvasive IDH1 prediction for low grade glioma
+
+Summary- Uses 2D Convolutional Neural Networks (CNN) and SVM classifier
+with the modalities T1-contrast and T2-FLAIR MRI on training(60) + test(59)
+features which resulted into AUC score for CNN= 0.92 AUC score for SVM=
+0.86
+
+Advantages-
+- Uses CNNs for feature extraction
+
+Disadvantages-
+- Can be difficult to implement
+- Uses Fisher vectors, which can lead to storage as well as I/O issues. 
+
++++
+
+# Radiogenomics of Glioblastoma: Machine Learning–based Classification of Molecular Characteristics by Using Multiparametric and Multiregional MR Imaging Features
+
+Summary- Uses Random Forest, Gradient Boosting and Oversampling techniques to obtain information about IDH1 mutation. Uses features such as total tumor volume, necrotic tumor volume, contrast-enhancing tumor volume etc. Accuracy of 88% on random forest, 87% on gradient boosting.
+
+Advantages-
+- Uses features which can be calculated easily
+- Uses ML techniques
+
+Disadvantages-
+- Require computational resources if data is large
 
 ---
 
