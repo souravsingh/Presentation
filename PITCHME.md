@@ -202,12 +202,6 @@ This is a signature of specialized brain tumor type called oligodendroglioma. Ar
     - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
     - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
 
-+++
-
-- VTK- Visualization Toolkit is a open-source software for visualizing and processing 2D as well as 3D images.
-- ITK- Imaging toolkit is an open source tool used for checking and processing brain images.
-
-
 ----
 
 Thank you!
