@@ -217,7 +217,6 @@ Modalities- MRI modalities uses various modes for diagnosing the disease
 - T2-weighted: MRI which highlights fat tissue and water tissue as well. CSF and fluid appear brighter here.
 - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
 - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
-- DWI: Diffusion Weighted Imaging, uses the diffusion of water molecules to generate contrast in MR image.
 
 ---
 
