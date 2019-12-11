@@ -28,7 +28,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 - Patients with brain cancer aren't so lucky.
 - Mean and median survival for a patient with brain cancer is 15 and 16 months upon getting treatment.
-- India is third largest in number of incident cases of brain cancer. [Reference](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(18)30468-X/fulltext?rss=yes)
+- India is third largest in number of incident cases of brain cancer. [Reference](https://tinyurl.com/rohotp4)
 - Timely diagnosis and treatment is important to combat brain cancer.
 - Machine learning can help in quick diagnosis of brain cancer and has been used before.
 
@@ -65,64 +65,74 @@ in collaboration with Tata Memorial Centre, Mumbai
 - Alleviates need for complicated lab tests.
 
 ---
-### Payoff Matrix(Outcome of game playing between two players A and B)
 
-![IMAGE](assets/payoff_matrix.png)
+### Scope
 
----
-#### More on Prisoner's Dilemma
-<img src="assets/valentine_dilemma.png" height="450"/>
-
-Taken from [https://xkcd.com/1016/](https://xkcd.com/1016/)
----
-#### Iterated Prisoner's Dilemma
-
-1. Started out by Robert Axelrod as a student in 1962.
-2. [Axelrod1980](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.665.7955&rep=rep1&type=pdf): 15 strategies
-3. [Axelrod1980b](http://journals.sagepub.com/doi/abs/10.1177/002200278002400301): 65 strategies
+- Make use of MRI scans of brain to predict mutation and co-deletion status.
+- Improve accuracy by tuning and experimenting model, obtaining more data or generating data.
+- Make the system easy to use for doctors.
 
 ---
 
-### IPD in Python
-<img src="http://vknight.org/Talks/2017-02-13-The-Axelrod-library/static/axelrod-tweet.png" alt="Drawing" style="height: 480px;"/>
----
+#### Techniques and APIs for mutation and co-deletion status prediction
 
-### Basic Strategy for IPD
-
-```python
-class TitForTat(Player):
-    """A player starts by cooperating and then mimics previous move by opponent."""
-
-    name = 'Tit For Tat'
-    classifier = {
-        'memory_depth': 1,  # Four-Vector = (1.,0.,1.,0.)
-        'stochastic': False,
-        'inspects_source': False,
-        'manipulates_source': False,
-        'manipulates_state': False
-    }
-
-    @staticmethod
-    def strategy(opponent):
-        return 'D' if opponent.history[-1:] == ['D'] else 'C'
-```
----
-
-#### Demo time!
-
----
-<img src="http://axelrod-tournament.readthedocs.io/en/latest/_images/strategies_std_reproduce.svg" width=800>
----
-
-The Axelrod library
-
-Greet us at [Gitter!!](https://gitter.im/Axelrod-Python/Axelrod)
-
-Docs- [axelrod.readthedocs.io](axelrod.readthedocs.io)
+- Tensorflow, PyTorch
+- 3D Convolutions
+- DenseNets to obtain features
+- Classification
 
 ---
 
-Thanks to Axelrod-Python community, especially to Dr. Vincent Knight for the help!!
+#### Literature Survey
+
+- Add image here
+
+---
+
+#### Flow of project
+
+Add image here
+
+---
+
+#### Requirements
+
+## Hardware
+
+- PC with Intel processor(minimum 2Ghz clock)
+- Atleast 500GB HDD
+- Nvidia GPU for deep learning(2GB bare minimum, more would be better)
+- 16 GB RAM
+
++++
+
+## Software
+
+- Python, R for programming, data analysis and statistical computing.
+- Tensorflow, PyTorch for making deep learning models
+- VTK and ITK for reading MRI scans and analysing them.
+- Anaconda package manager for managing packages
+- Linux OS 
+
+---
+#### References
+
+----
+
+#### Glossary of terms
+
+-IDH1- A gene which controls info for creating isocitrate dehydrogenase enzyme, which helps produce
+NADPH(Nicotinamide adenine dinucleotide phosphate) for breakdown of fat and protect body from free radicals in an indirect manner.
+Mutation of this gene can be a cause increase in methylation process in brain tumor cells.
+
+- 1p19q co-deletion- Gene Deletion of the short arm or chromosome 1 and long arm of chromosome 19 refers to 1p19q co-deletion.
+This is a signature of specialized brain tumor type called oligodendroglioma. Are predominantly present in adult tumors and tend to resent with seizures
+
+- Modalities- MRI modalities uses various modes for diagnosing the disease
+    - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
+    - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
+    - VTK- Visualization Toolkit is a open-source software for visualizing and processing 2D as well as 3D images.
+    - ITK- Imaging toolkit is an open source tool used for checking and processing brain images.
 
 ---
 
