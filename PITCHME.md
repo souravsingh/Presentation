@@ -78,9 +78,7 @@ The presentation talks about brain cancer and how deep learning can help in the 
 #### Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques
 
 Summary- Uses SVM classifier with T1, T1-Gd, T2, T2-FLAIR and DTI MRI images on 120 features
-consisting of location of tumor, intensities of tumor in each -of the imaging scans
-which gave Accuracy for retrospective study= 77.14 % SVM Accuracy for
-prospective study=79.17%
+consisting of location of tumor, intensities. Accuracy = 79.17%
 
 Advantages:
 - Is easy to implement
@@ -96,7 +94,7 @@ Disadvantages:
 
 Summary- Uses 2D Convolutional Neural Networks (CNN) and SVM classifier
 with the modalities T1-contrast and T2-FLAIR MRI on training(60) + test(59)
-features which resulted into AUC score for CNN= 0.92 AUC score for SVM=
+features. AUC score for CNN= 0.92 AUC score for SVM=
 0.86
 
 Advantages-
@@ -110,7 +108,7 @@ Disadvantages-
 
 #### Radiogenomics of Glioblastoma: Machine Learning–based Classification of Molecular Characteristics by Using Multiparametric and Multiregional MR Imaging Features
 
-Summary- Uses Random Forest, Gradient Boosting and Oversampling techniques to obtain information about IDH1 mutation. Uses features such as total tumor volume, necrotic tumor volume, contrast-enhancing tumor volume etc. Accuracy of 88% on random forest, 87% on gradient boosting.
+Summary- Uses Random Forest, Gradient Boosting and Oversampling techniques to obtain info about IDH1 mutation. Uses features such as total tumor volume, necrotic tumor volume, contrast-enhancing tumor volume etc. Accuracy of 88% on RF, 87% on GBM.
 
 Advantages-
 - Uses features which can be calculated easily
