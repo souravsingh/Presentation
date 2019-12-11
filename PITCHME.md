@@ -74,7 +74,7 @@ The presentation talks about brain cancer and how deep learning can help in the 
 
 ### Literature Survey
 
-## Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques
+#### Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques
 
 Summary- Uses SVM classifier with T1, T1-Gd, T2, T2-FLAIR and DTI MRI images on 120 features
 consisting of location of tumor, intensities of tumor in each -of the imaging scans
@@ -91,7 +91,7 @@ Disadvantages:
 
 +++
 
-## Deep Learning based Radiomics (DLR) and its usage in noninvasive IDH1 prediction for low grade glioma
+#### Deep Learning based Radiomics (DLR) and its usage in noninvasive IDH1 prediction for low grade glioma
 
 Summary- Uses 2D Convolutional Neural Networks (CNN) and SVM classifier
 with the modalities T1-contrast and T2-FLAIR MRI on training(60) + test(59)
@@ -107,7 +107,7 @@ Disadvantages-
 
 +++
 
-# Radiogenomics of Glioblastoma: Machine Learning–based Classification of Molecular Characteristics by Using Multiparametric and Multiregional MR Imaging Features
+#### Radiogenomics of Glioblastoma: Machine Learning–based Classification of Molecular Characteristics by Using Multiparametric and Multiregional MR Imaging Features
 
 Summary- Uses Random Forest, Gradient Boosting and Oversampling techniques to obtain information about IDH1 mutation. Uses features such as total tumor volume, necrotic tumor volume, contrast-enhancing tumor volume etc. Accuracy of 88% on random forest, 87% on gradient boosting.
 
