@@ -149,6 +149,43 @@ Add image here
 
 ### References
 
+- [1] Macyszyn, Luke, et al. "Imaging patterns predict patient survival and molecular
+subtype in glioblastoma via machine learning techniques." Neuro-oncology 18.3
+(2015): 417-425.
+
+- [2]Li, Zeju, et al. "Deep Learning based Radiomics (DLR) and its usage in
+noninvasive IDH1 prediction for low grade glioma." Scientific reports 7.1 (2017):
+5467.
+
+- [3] Zhang, Xi, et al. "Radiomics strategy for molecular subtype stratification of lowergrade glioma: detecting IDH and TP53 mutations based on multimodal MRI." Journal
+of Magnetic Resonance Imaging 48.4 (2018): 916-926.
+
++++
+
+- [4] Kickingereder, Philipp, et al. "Radiogenomics of glioblastoma: machine learning–
+based classification of molecular characteristics by using multiparametric and
+multiregional MR imaging features." Radiology 281.3 (2016): 907-918.
+
+- [5] (IJITEE) ISSN: 2278-3075, Volume-8 Issue-6, April 2019:- Predicting Survival of
+Brain Tumor Patients using Deep Learning.
+
+- [6] 2017 IEEE 17th International Conference on Bioinformatics and Bioengineering:-
+Machine Learning and Deep Learning Techniques to Predict Overall Survival of
+Brain Tumor Patients using MRI ImagesMachine Learning and Deep Learning
+Techniques to Predict Overall Survival of Brain Tumor Patients using MRI Images
+
++++
+
+- [7] (ICCTCEEC-2017):- An Automated Approach for Brain Tumor Identification using
+ANN Classifier
+
+- [8] Journal of Cancer Research and Experimental Oncology Vol. 2(1) pp. 006-014,
+March, 2010:- An improved implementation of brain tumor detection using
+segmentation based on soft computing.
+
+- [9]IEEE:-3D Deep Learning for Multi-modalImaging-Guided Survival Time Prediction
+of Brain Tumor Patients
+
 ----
 
 ### Glossary of terms
