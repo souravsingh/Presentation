@@ -183,8 +183,30 @@ ANN Classifier
 March, 2010:- An improved implementation of brain tumor detection using
 segmentation based on soft computing.
 
-- [9]IEEE:-3D Deep Learning for Multi-modalImaging-Guided Survival Time Prediction
-of Brain Tumor Patients
+----
+
+### Glossary of terms
+
+-IDH1- A gene which controls info for creating isocitrate dehydrogenase enzyme, which helps produce
+NADPH(Nicotinamide adenine dinucleotide phosphate) for breakdown of fat and protect body from free radicals in an indirect manner.
+Mutation of this gene can be a cause increase in methylation process in brain tumor cells.
+
++++
+
+- 1p19q co-deletion- Gene Deletion of the short arm or chromosome 1 and long arm of chromosome 19 refers to 1p19q co-deletion.
+This is a signature of specialized brain tumor type called oligodendroglioma. Are predominantly present in adult tumors and tend to resent with seizures
+
++++
+
+- Modalities- MRI modalities uses various modes for diagnosing the disease
+    - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
+    - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
+
++++
+
+- VTK- Visualization Toolkit is a open-source software for visualizing and processing 2D as well as 3D images.
+- ITK- Imaging toolkit is an open source tool used for checking and processing brain images.
+
 
 ----
 
