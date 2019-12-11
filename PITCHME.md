@@ -186,7 +186,7 @@ segmentation based on soft computing.
 - [9] Brain Tumor Segmentation and Radiomics Survival Prediction: Contribution to
 the BRATS 2017 Challenge.
 
-----
+---
 
 ### Glossary of terms
 
@@ -205,8 +205,6 @@ Modalities- MRI modalities uses various modes for diagnosing the disease
 - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
 - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
 
-+++
+---
 
 Thank you!
-
-----
