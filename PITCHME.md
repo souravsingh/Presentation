@@ -121,7 +121,7 @@ Disadvantages-
 
 ### Flow of project
 
-Add image here
+![IMAGE](assets/Flowchart-proj.png)
 
 ---
 
