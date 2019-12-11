@@ -26,9 +26,17 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 #### Introduction
 
----
++++
 
 ![IMAGE](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhB0p2sa8bGLZBCaYKEIOOSYCT17lAXvEbPDSwdlcl66ecd4VQ)
+
++++
+
+![IMAGE](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeDsR3qNq1hZGmdYEfIeHA58IYlppQwaaJg2bT1ErGCUIofYVY)
+
++++
+
+![IMAGE](https://raw.githubusercontent.com/fperez/blog/master/fig/johnhunter-head.jpg)
 
 ---
 
