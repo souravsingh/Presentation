@@ -183,6 +183,9 @@ ANN Classifier
 March, 2010:- An improved implementation of brain tumor detection using
 segmentation based on soft computing.
 
+- [9] Brain Tumor Segmentation and Radiomics Survival Prediction: Contribution to
+the BRATS 2017 Challenge.
+
 ----
 
 ### Glossary of terms
@@ -206,4 +209,4 @@ Modalities- MRI modalities uses various modes for diagnosing the disease
 
 Thank you!
 
----
+----
