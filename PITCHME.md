@@ -9,15 +9,24 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### This comic brought me into Game Theory.
+#### Table of Contents
 
-![IMAGE](https://upload.wikimedia.org/wikipedia/en/8/84/Liar_Game_vol01.jpg)
+- Introduction
+- Problem Statement
+- Project Genesis
+- Literature Survey
+- Project objectives
+- Methodology
+- Conclusion
+- Future Scope
+- References
+- Question round
 
 ---
 
-#### What is Game Theory?
+#### Introduction
 
-Study Conflicts and Cooperation between various entities though Mathematical Models.
+![IMAGE](https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F47%2F201647-050-C547C128%2FHugh-Jackman-2013.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FHugh-Jackman&tbnid=olt8Txqlw4cGNM&vet=12ahUKEwic4JL26azmAhU72XMBHTMsBNoQMygAegUIARCIAg..i&docid=S95DLXRBm0jm-M&w=1178&h=1600&q=hugh%20jackma&hl=en&ved=2ahUKEwic4JL26azmAhU72XMBHTMsBNoQMygAegUIARCIAg)
 
 ---
 
