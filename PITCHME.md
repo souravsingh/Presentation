@@ -24,7 +24,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 ![IMAGE](https://raw.githubusercontent.com/fperez/blog/master/fig/johnhunter-head.jpg)
 
 ---
-# Motivation
+#### Motivation
 
 - Patients with brain cancer aren't so lucky.
 - Mean and median survival for a patient with brain cancer is 15 and 16 months upon getting treatment.
