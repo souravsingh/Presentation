@@ -5,8 +5,6 @@
 
 @snap[midpoint]
 under guidance from Prof. (Ms.) Disha S. Wankhede
-
-@snap[midpoint]
 in collaboration with Tata Memorial Centre, Mumbai
 
 ---
