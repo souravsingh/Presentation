@@ -1,5 +1,7 @@
-#### Game Theory and Iterated Prisoner's Dilemma in Python
-[@MrSouravSingh](https://twitter.com/MrSouravSingh)
+#### IDH1 Mutation and 1p19q co-deletion prediction from MRI for brain cancer.
+by Sourav Singh, Rasika Mahadeshwar, Manali Bhavsar and Sumeet Rathod 
+under guidance from Prof. (Ms.) Disha S. Wankhede
+in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
