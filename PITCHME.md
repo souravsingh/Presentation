@@ -1,5 +1,5 @@
-#### IDH1 Mutation and 1p19q co-deletion prediction from MRI for brain cancer.
-### by Sourav Singh, Rasika Mahadeshwar, Manali Bhavsar and Sumeet Rathod 
+### IDH1 Mutation and 1p19q co-deletion prediction from MRI for brain cancer.
+#### by Sourav Singh, Rasika Mahadeshwar, Manali Bhavsar and Sumeet Rathod 
 
 +++
 
@@ -9,7 +9,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Introduction
+### Introduction
 
 +++
 
@@ -24,7 +24,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 ![IMAGE](https://raw.githubusercontent.com/fperez/blog/master/fig/johnhunter-head.jpg)
 
 ---
-#### Motivation
+### Motivation
 
 - Patients with brain cancer aren't so lucky.
 - Mean and median survival for a patient with brain cancer is 15 and 16 months upon getting treatment.
@@ -40,7 +40,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Existing Systems and their limitations
+### Existing Systems and their limitations
 
 - Current systems use 2D CNNs or ML methods to classify genetic mutation type for IDH1- wildtype vs mutant.
 - 1p19q co-deletions- Normal or deleted.
@@ -50,7 +50,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 --- 
 
-#### Proposed system
+### Proposed system
 
 - System will make use of brain MRI scans of various modalities as input.
 - The input will be checked for file format type, parity and stuff.
@@ -58,7 +58,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Purpose
+### Purpose
 
 - Help diagnosticians in knowing mutation and co-deletion status.
 - Drive treatment protocol in a useful manner.
@@ -74,7 +74,7 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Techniques and APIs for mutation and co-deletion status prediction
+### Techniques and APIs for mutation and co-deletion status prediction
 
 - Tensorflow, PyTorch
 - 3D Convolutions
@@ -83,21 +83,21 @@ in collaboration with Tata Memorial Centre, Mumbai
 
 ---
 
-#### Literature Survey
+### Literature Survey
 
 - Add image here
 
 ---
 
-#### Flow of project
+### Flow of project
 
 Add image here
 
 ---
 
-#### Requirements
+### Requirements
 
-## Hardware
+#### Hardware
 
 - PC with Intel processor(minimum 2Ghz clock)
 - Atleast 500GB HDD
@@ -106,7 +106,7 @@ Add image here
 
 +++
 
-## Software
+#### Software
 
 - Python, R for programming, data analysis and statistical computing.
 - Tensorflow, PyTorch for making deep learning models
@@ -115,24 +115,32 @@ Add image here
 - Linux OS 
 
 ---
-#### References
+
+### References
 
 ----
 
-#### Glossary of terms
+### Glossary of terms
 
 -IDH1- A gene which controls info for creating isocitrate dehydrogenase enzyme, which helps produce
 NADPH(Nicotinamide adenine dinucleotide phosphate) for breakdown of fat and protect body from free radicals in an indirect manner.
 Mutation of this gene can be a cause increase in methylation process in brain tumor cells.
 
++++
+
 - 1p19q co-deletion- Gene Deletion of the short arm or chromosome 1 and long arm of chromosome 19 refers to 1p19q co-deletion.
 This is a signature of specialized brain tumor type called oligodendroglioma. Are predominantly present in adult tumors and tend to resent with seizures
+
++++
 
 - Modalities- MRI modalities uses various modes for diagnosing the disease
     - T1-Contrast Enhanced: Uses Gadolinium to highlight fat tissues with contrast.
     - T2-fluid-attenuated inversion recovery: Supresses signals from CSF and show contrast between white and gray matter.
-    - VTK- Visualization Toolkit is a open-source software for visualizing and processing 2D as well as 3D images.
-    - ITK- Imaging toolkit is an open source tool used for checking and processing brain images.
+
++++
+
+- VTK- Visualization Toolkit is a open-source software for visualizing and processing 2D as well as 3D images.
+- ITK- Imaging toolkit is an open source tool used for checking and processing brain images.
 
 ---
 
